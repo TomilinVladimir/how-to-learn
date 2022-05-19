@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 /* colors  fon - #1f1f1f  #f2f2f2  #*/
   box-sizing: border-box;
-  margin: 0;
+  height: 100vh;
 }
 
 /* .bord {
@@ -21,7 +21,6 @@
 }
 
 .page {
-  height: 100vh;
 }
 
 /* _______________ header ________________ */
@@ -186,6 +185,7 @@ align-items: center;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .table__text-bottom,
@@ -211,10 +211,6 @@ align-items: center;
   margin-top: 60px;
 }
 
-.table__heading {
-  margin-bottom: 20px;
-}
-
 .table__text-bottom {
   margin-top: 20px;
 }
@@ -225,7 +221,7 @@ align-items: center;
   height: 890px;
   position: relative;
   padding-top: 100px;
-  background-color:  #f2f2f2 ;
+  background-color:  #f2f2f2;
 }
 
 .feynman__box{
