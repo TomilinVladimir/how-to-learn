@@ -159,14 +159,16 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-.section-title__text {}
 
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .table__heading {
@@ -182,10 +184,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.section-subtitle {
-  margin-top: 20px;
 }
 
 .table {
@@ -268,25 +266,11 @@
   z-index: 0;
 }
 
-.section-title {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.section-subtitle {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
 }
-
-/* .table_theme_dark {
-margin-bottom: 90px;
-} */
 
 .kaufman__triangle {
   position: absolute;
