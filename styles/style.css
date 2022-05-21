@@ -183,6 +183,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 20px auto 0;
 }
 
 .table {
@@ -196,10 +197,6 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
-}
-
-.table__text {
-  margin: 20px auto 0;
 }
 
 /* _______________ feynman ________________ */
@@ -360,8 +357,4 @@
   font-size: 18px;
   font-weight: normal;
   padding: 0;
-}
-
-.footer__column-links:last-of-type {
-  margin-bottom: 16px;
 }
