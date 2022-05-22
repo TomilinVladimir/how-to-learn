@@ -336,7 +336,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin-bottom: 16px;
   /* Убираем поля */
   padding: 0;
 }
@@ -348,7 +348,7 @@
 }
 
 .footer__column-link {
-  margin-bottom: 16px;
+  margin: 0;
   display: flex;
   color: white;
   text-decoration: none;
