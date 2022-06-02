@@ -19,8 +19,8 @@
     <div class="header__square-pic rotation"></div>
   </header>
   <main class="content">
-    <section class="description">
-      <div class="two-columns">
+    <section class="description" aria-label="Секция со статьей">
+      <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -31,7 +31,7 @@
           <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
             его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
-      </div>
+      </article>
     </section>
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
@@ -67,24 +67,21 @@
     <section class="video">
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-      <div class="video__iframes">
+      <ul class="video__iframes">
         <!-- type="text/html" -->
         <!-- frameborder="0" -->
-        <iframe class="video__iframe" id="ytplayer1" width="515" height="316"
-        src="https://www.youtube.com/embed/arj7oStGLkU"
-         allowfullscreen></iframe>
-        <iframe class="video__iframe" id="ytplayer2" width="515" height="316"
-        src="https://www.youtube.com/embed/5MgBikgcWnY"
-         allowfullscreen></iframe>
+        <li><iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+        <li><iframe class="video__iframe" id="ytplayer2" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+      </ul>
       </div>
     </section>
-    <section class="oakley">
-      <div class="two-columns">
+    <section class="oakley" aria-label="Секция со статьей">
+      <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
         </div>
-      </div>
+      </article>
     </section>
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -96,7 +93,7 @@
       <p class="section-subtitle">Про учёбу и мозг</p>
       <ul class="table">
         <li class="table__cell">
-          <h3 class="table__heading">Про учёбу и мозг</h3>
+          <h3 class="table__heading">86 миллиардов</h3>
           <p class="table__text">Число нейронов в мозге человека</p>
         </li>
         <li class="table__cell">
@@ -133,9 +130,9 @@
     </section>
     <section class="khan">
       <div class="khan__container">
-        <h4 class="khan__author">Салман Хан</h4>
-        <h3 class="khan__title">Весь мир — школа</h3>
-        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+        <p class="khan__author">Салман Хан</p>
+        <h2 class="khan__title">Весь мир — школа</h2>
+        <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
         <span class="khan__quote-author">Джордж Лукас</span>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
@@ -193,14 +190,14 @@
       <div class="kaufman__triangle rotation"></div>
     </section>
     <section class="resources">
-      <h2 class="section-title">Полезные реесурсы</h2>
+      <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфаках обучения</p>
-      <div class="resources__logo-zone">
-        <a class="resources__link" href="#"><img src="blocks/resources/image/resources-arzamas.svg" alt="Арзамас"></a>
-        <a class="resources__link" href="#"><img src="blocks/resources/image/resources-n1.svg" alt="Н+1"></a>
-        <a class="resources__link" href="#"><img src="blocks/resources/image/resources-strelka.svg" alt="Стрелка"></a>
-        <a class="resources__link" href="#"><img src="blocks/resources/image/resources-polka.svg" alt="Полка"></a>
-      </div>
+      <ul class="resources__logo-zone">
+        <li><a class="resources__link" href="#"><img src="blocks/resources/image/resources-arzamas.svg" alt="Арзамас"></a></li>
+        <li><a class="resources__link" href="#"><img src="blocks/resources/image/resources-n1.svg" alt="Н+1"></a></li>
+        <li><a class="resources__link" href="#"><img src="blocks/resources/image/resources-strelka.svg" alt="Стрелка"></a></li>
+        <li><a class="resources__link" href="#"><img src="blocks/resources/image/resources-polka.svg" alt="Полка"></a></li>
+      </ul>
     </section>
   </main>
   <footer class="footer">
